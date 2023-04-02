@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "selector-class-pattern": [
+      "^([a-z])(([A-Z]*)[a-z0-9]+)*(((__[a-z])(([A-Z]*)[a-z])+)){0,1}(((_[a-z])(([A-Z]*)[a-z])+){0,1})$",
+      {
+        "message": "Expected class selector to be camelCase + snake__case (double underscore), example:  myBlock__myElement_myModifier"
+      }
+    ],
+    "declaration-block-no-redundant-longhand-properties": null
+  }
+}
