@@ -8,5 +8,5 @@
 		],
 		"declaration-block-no-redundant-longhand-properties": null
 	},
-	"extends": ["stylelint-config-prettier"]
+	"extends": ["stylelint-config-standard-scss", "stylelint-config-prettier"]
 }
