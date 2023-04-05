@@ -12,6 +12,7 @@ specifiers:
   stylelint: ^15.4.0
   stylelint-config-prettier: ^9.0.5
   stylelint-config-standard-scss: ^7.0.1
+  stylelint-no-px: ^1.0.1
   vite: ^4.2.0
 
 dependencies:
@@ -28,6 +29,7 @@ devDependencies:
   stylelint: 15.4.0
   stylelint-config-prettier: 9.0.5_stylelint@15.4.0
   stylelint-config-standard-scss: 7.0.1_stylelint@15.4.0
+  stylelint-no-px: 1.0.1_stylelint@15.4.0
   vite: 4.2.1
 
 packages:
@@ -2332,6 +2334,15 @@ packages:
     dependencies:
       stylelint: 15.4.0
       stylelint-config-recommended: 10.0.1_stylelint@15.4.0
+    dev: true
+
+  /stylelint-no-px/1.0.1_stylelint@15.4.0:
+    resolution: {integrity: sha512-33+Gd5WFeSvEiOV8IwWMVgjzYieFg/Q4ETKeZkahSYl2V7+WMtgNT32IYYEspN402ZJv16bOciwEnG1GY2qrPA==}
+    peerDependencies:
+      stylelint: '>= 8'
+    dependencies:
+      postcss-value-parser: 4.2.0
+      stylelint: 15.4.0
     dev: true
 
   /stylelint-scss/4.6.0_stylelint@15.4.0:
