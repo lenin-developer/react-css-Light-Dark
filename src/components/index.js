@@ -1,1 +1,5 @@
 export * from './atomic/Header/Header'
+export * from './atomic/Item/Item'
+export * from './atomic/ItemTheme/ItemTheme'
+export * from './atomic/Menu/Menu'
+export * from './atomic/ThemeOptions/ThemeOptions'
