@@ -1,17 +1,16 @@
-import { node } from 'prop-types'
+import { node, string } from 'prop-types'
 import styles from './Header.module.css'
 
-export const Header = ({ children }) => {
+export const Header = ({ label, children }) => {
 	return (
 		<header className={styles.header}>
-			<div>
-				<h2>Themes in CSS</h2>
-			</div>
+			<h2>{label}</h2>
 			<div className={styles.header__itemSection}>{children}</div>
 		</header>
 	)
 }
 
 Header.propTypes = {
+	label: string,
 	children: node,
 }
