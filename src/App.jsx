@@ -1,15 +1,17 @@
 import { useState } from 'react'
-import { Header } from '@/components'
+import { Header, Menu, Item, ThemeOptions } from '@/components'
 import styles from './App.module.css'
 
 function App() {
-	const [count, setCount] = useState(0)
-	console.log('desde app')
-
 	return (
 		<div className={styles.app}>
-			<Header>
-				<p>hola</p>
+			<Header label='Themes CSS'>
+				<Menu>
+					<Item label='opcion' />
+					<Item label='opcion' />
+					<Item label='opcion' />
+					<Item label='opcion' />
+				</Menu>
 			</Header>
 		</div>
 	)
