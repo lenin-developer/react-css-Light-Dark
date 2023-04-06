@@ -1,0 +1,21 @@
+.item {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	margin: 0.5rem 0;
+}
+
+.item__icon {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	margin: 0;
+	margin-right: 1.125rem;
+	color: var(--background-body);
+}
+
+.item__text {
+	/* display: inline-block; */
+	margin: 0;
+	color: var(--background-body);
+}
