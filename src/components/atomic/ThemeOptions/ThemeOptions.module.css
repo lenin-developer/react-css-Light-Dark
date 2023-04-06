@@ -1,0 +1,22 @@
+.option {
+	position: relative;
+}
+
+.option__btn {
+	padding: 0;
+	border: none;
+	background-color: transparent;
+}
+
+.option__box {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: max-content;
+	margin: 0.0625rem;
+	padding: 0 0.625rem;
+	border-radius: 0.375rem;
+	background-color: var(--header-bg-color);
+	transform: translate(50%, 2.1875rem);
+	list-style-type: none;
+}
