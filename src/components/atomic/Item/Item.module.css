@@ -1,0 +1,9 @@
+.item {
+	font-weight: 600;
+	color: var(--background-body);
+
+	&:hover {
+		cursor: pointer;
+		text-shadow: 0 0 0.9375rem var(--background-body);
+	}
+}
