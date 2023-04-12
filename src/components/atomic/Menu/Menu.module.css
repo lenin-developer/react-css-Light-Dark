@@ -3,6 +3,7 @@
 	justify-content: space-evenly;
 	gap: 3.75rem;
 	padding-right: 6.25rem;
+	color: var(--gray-100);
 }
 
 .nav__ul {

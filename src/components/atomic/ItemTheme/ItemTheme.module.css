@@ -3,6 +3,12 @@
 	align-items: center;
 	align-content: center;
 	margin: 0.5rem 0;
+	padding: 0.125rem 0.625rem;
+
+	&:hover {
+		background-color: var(--blue-100);
+		cursor: pointer;
+	}
 }
 
 .item__icon {
@@ -11,11 +17,10 @@
 	align-content: center;
 	margin: 0;
 	margin-right: 1.125rem;
-	color: var(--background-body);
+	color: var(--color-text-headers);
 }
 
 .item__text {
-	/* display: inline-block; */
 	margin: 0;
-	color: var(--background-body);
+	color: var(--color-text-headers);
 }
