@@ -1,4 +1,8 @@
 :root {
-	--background-body: #f8f9fa;
-	--header-bg-color: #7266f1;
+	/* Colors conts */
+	--gray-100: #f8f9fa;
+	--blue-100: #4169e1;
+
+	/* Colors referens */
+	--color-text-headers: var(--gray-100);
 }

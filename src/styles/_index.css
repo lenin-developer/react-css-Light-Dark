@@ -1,8 +1,8 @@
-@import './generic/_index.css';
 @import './settings/_index.css';
 
 /* @import './themes/_index.css'; */
 
+@import './generic/_index.css';
 @import './elements/_index.css';
 
 /* @import './objects/_index.css'; */
