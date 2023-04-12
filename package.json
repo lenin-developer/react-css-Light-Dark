@@ -7,8 +7,8 @@
 		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview",
-		"css-lint": "yarn run stylelint src/**/*.{css,scss,sass,less,stylus}",
-		"css-lint-fix": "yarn run stylelint src/**/*.{css,scss,sass,less,stylus} --fix",
+		"css-lint": "stylelint **/*.css",
+		"css-lint-fix": "stylelint **/*.css --fix",
 		"format": "prettier --write ."
 	},
 	"dependencies": {
