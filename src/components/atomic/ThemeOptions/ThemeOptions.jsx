@@ -47,7 +47,7 @@ export const ThemeOptions = () => {
 					role='listbox'
 					aria-orientation='vertical'
 					aria-activedescendant='option-theme'
-					tabindex={0}
+					tabIndex={0}
 				>
 					<ItemTheme label='Dark' onClick={(evt) => getTheme(evt)}>
 						<FiMoon />
