@@ -1,5 +1,6 @@
 :root {
 	/* Colors conts */
+
 	/* gray */
 	--gray-100: #f8f9fa;
 
@@ -7,6 +8,6 @@
 	--blue-100: #4169e1;
 	--blue-200: #1e43b0;
 
-	/* ================ Colors referens ====================*/
+	/* ================ Colors referens ==================== */
 	--color-text-headers: var(--gray-100);
 }

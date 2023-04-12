@@ -66,7 +66,7 @@ hr {
    */
 
 pre {
-	font-family: monospace, monospace; /* 1 */
+	font-family: monospace; /* 1 */
 	font-size: 1em; /* 2 */
 }
 
@@ -109,7 +109,7 @@ strong {
 code,
 kbd,
 samp {
-	font-family: monospace, monospace; /* 1 */
+	font-family: monospace; /* 1 */
 	font-size: 1em; /* 2 */
 }
 
@@ -225,7 +225,7 @@ button:-moz-focusring,
 [type='button']:-moz-focusring,
 [type='reset']:-moz-focusring,
 [type='submit']:-moz-focusring {
-	outline: 1px dotted ButtonText;
+	outline: 0.0625rem dotted ButtonText;
 }
 
 /**
@@ -295,7 +295,7 @@ textarea {
 
 [type='search'] {
 	appearance: textfield; /* 1 */
-	outline-offset: -2px; /* 2 */
+	outline-offset: -0.125rem; /* 2 */
 }
 
 /**
